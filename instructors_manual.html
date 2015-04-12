@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CS101 Instructor's Manual</title>
+</head>
+<body>  
+<h1>CS101 Instructor's Manual</h1>
+
+<p><em>First draft, June 1, 2011, Otfried Cheong.</em></p>
+
+<h2>General Structure</h2>
+
+<p>CS101 is taken by all KAIST freshmen, with the exception of a few
+  who have taken an advanced placement programming course at a 영재학교
+  and are exempted. (Students can also take a course waiver exam at
+  the beginning of the semester, see below.)</p>
+
+<p>So there are about 500 students every semester taking CS101, which
+  is offered in 12 sections, CS101A to CS101L. Students are assigned
+  automatically to these sections by the academic affairs office at
+  the beginning of the semester.</p>
+
+<p>The main feature of each section is a weekly three hour lab, held
+  in a PC-room in the Creative Learning Building.  This lab is
+  supervised by a <em>Lead TA</em> (a Ph.D. student), who is assisted
+  by 5 to 6 helper TAs (undergraduate and master students).</p>
+
+<p>The labs are run in sync&mdash;all labs in a given week cover
+  exactly the same material.  (This means that if there is a holdiday
+  in a week, it is easier to cancel labs for the entire week than to
+  come up with a make-up scheme.  As a result, we only hold 12 labs
+  during the 16 weeks of the semester.)</p>
+
+<p>In addition to the lab, <em>four sections</em> together share one
+  lecture given by a CS faculty: CS101ABCD on Monday, CS101EFGH on
+  Wednesday, and CS101IJKL on Friday.  The lectures are scheduled from
+  13:00 to 15:00, but usually take only 60 to 75 minutes.</p>
+
+<p>Note that the labs for the Wednesday and Friday lectures are held in
+  the week <em>following</em> the lecture, while the labs for the
+  Monday lecture are held in the <em>same</em> week.  This implies
+  that it is best if the lectures are synchronized such that the
+  Monday lecture covers the same material as the Wednesday and Friday
+  lectures of the previous week.  If the semester starts on a Monday,
+  it is best to cancel the first Monday lecture and start the lectures
+  on Wednesday.</p>
+
+
+<h2>Lecturers and teaching assistants</h2>
+
+<p>There are six Ph.D. students assigned as <em>lead TAs</em>, each
+handling two lab sections.  One of the lead TAs is the <em>Head
+TA</em>, who is actually managing most of the course.  Lead TAs are
+paid 800,000 Won for six months, helper TAs 300,000 Won.</p>
+
+<p>The lead TAs together handle the recruiting of helper TAs.  This
+happens in the semester break before the semester starts.  One new
+feature starting in Fall 2011 is that prospective master students must
+provide the consent of their advisor to become a TA.</p>
+
+<p>Three CS faculty volunteer as lecturers for the three lecture
+  components of the course.  One of them is the <em>course
+  coordinator</em>, who is responsible for the overall logistics
+  (mostly overseeing the work of the head TA), and for communication
+  with the academic affairs office, the bridge program, the Education
+  3.0 team, and all the other lovely KAIST institutions that have an
+  interest in freshmen education.  We maintain a schedule of the
+  past, current, and future instructors 
+  <a href="http://tclab.kaist.ac.kr/~otfried/cs101/schedule.html">here</a>.</p>
+
+<p>The TAs are responsible for the following tasks:</p>
+<ul>
+<li>Running labs;</li>
+<li>Maintaining the course web server;</li>
+<li>Preparing lab materials (although it is better if faculty do
+  this, see below);</li>
+<li>Setting homework problems and grading the homework;</li>
+<li>Setting midterm and final exam problems; running and proctoring
+  the exam, and grading it;</li>
+<li>Providing an office hour for students to come with questions;</li>
+<li>Setting a course-waiver exam; running and proctoring the exam;
+  and grading it (see below).</li>
+</ul>
+
+
+<h2>Course contents</h2>
+
+<p>The course teaches basic programming in Python. It requires no
+  previous programming knowledge.   The course tries to be <em>very
+  gentle</em> at the beginning, introducing programming through the
+  controlling of a very simply robot (simulated in a graphical
+  environment) called "Hubo", then picking up speed later.  We try to
+  do interesting tasks in the lab, with topics in computer graphics,
+  animation, photo processing, and data analysis.</p>
+
+<p>You can find an overview of the materials as developed by Otfried 
+  <a href="http://tclab.kaist.ac.kr/~otfried/cs101fall2010/">here</a>.
+  The original slides were made
+  using <a href="http://ipe7.sourceforge.net">Ipe</a> in PDF format,
+  but Sue Moon had some converted to Powerpoint in early 2011, so you
+  can use either format.</p>
+
+<p>The course uses the Wing environment for using Python, and a number
+  of Python modules to make programming more
+  interesting: <a href="http://www.cs1graphics.org/">cs1graphics</a>, 
+  <em>cs1robots</em>, and <em>cs1media</em> (the two last ones were
+  written by Otfried Cheong for the course).</em>
+
+<p>The course does not follow any book closely, and so we do not
+  require students to purchase a textbook.  Students who want a book
+  are referred to
+  <a href="http://www.amazon.com/Practical-Programming-Introduction-Pragmatic-Programmers/dp/1934356271">Practical
+  Programming</a> (a cheap Korean translation
+  is <a href="http://book.interpark.com/product/BookDisplay.do?_method=Detail&sc.shopNo=0000400000&dispNo=&sc.prdNo=204677684">available</a>),
+  or the free on-line
+  book <a href="http://greenteapress.com/thinkpython/thinkpython.html">Think
+  Python</a>.  We provide lecture notes for the first three/four labs
+  on robot programming, and another set of lecture notes about media
+  programming, both written by Otfried Cheong in 2010.</p>
+
+
+<h2>Course web server</h2>
+
+<p>The TAs maintain a course web server
+  at <a href="http://cs101.kaist.ac.kr">cs101.kaist.ac.kr</a>.  The
+  server is used for announcements, to publish the course materials,
+  as a student question board, to release homeworks, for students to
+  upload homeworks, and for TAs to enter and maintain grades.  It
+  works very well, I much prefer it to moodle.</p>
+
+<p>All CS101 students must register on the web site at the beginning
+  of the semester, so they can access the homeworks and see their
+  grades.  Lecturers should also register so they can post messages
+  and answer questions on the board, as well as access the score
+  statistics.</p>
+
+<h2>Grading</h2>
+
+<p>We have decided not to let the homework and participation scores
+  influence the course score, as it caused too many problems with
+  cheating and unfairness.  So the current grading policy is this:</p>
+
+<p>CS101 grading consists of two parts: practice and theory.</p>
+
+<p>Practice points are collected as follows:
+<ul>
+<li>100 points for lecture attendance</li>
+<li>100 points for lab work</li>
+<li>200 points for homework</li>
+</ul>
+Students need to collect at least 320 practice points. Students who
+missed too many practice points can earn additional practice points
+using an extra (bonus) homework at the end of the semester.</p>
+
+<p>Theory points are collected as follows:
+<ul>
+<li>100 points for midterm exam;</li>
+<li>100 points for final exam.</li>
+</ul>
+The final score for CS101 is determined entirely by the theory points,
+(but students who did not earn 320 practice points receive a fail
+grade).</p>
+
+
+<h2>Labs</h2>
+
+<p>By far the most important part of the course is the three hour lab
+  every week. Students should actively program during this time, with
+  the active help of TAs. TAs should not just stand around passively
+  waiting for questions, but should look over student's shoulders and
+  steer them in the right direction when needed.</p>
+
+<p>For the success of the course, it is of paramount importance that
+  students spend three hours programming every week.  Even then, they
+  only get 36 hours of programming experience in total&mdash;we need
+  to make the best use of this time!
+  In the old Java-based course, the lab time was often filled with the
+  TA lecturing, essentially repeating the lecture but in Korean.  The
+  lab often ended after an hour or so, and TAs thought about the TA
+  job as very easy money.</p>
+
+<p>We need to remind the TAs over and over again that we expect
+  students to program for three hours.  It is therefore better that a
+  lecturer designs the lab task&mdash;if a TA does this, the
+  temptation is too strong to just make one or two tasks, and let the
+  lab end when all students are finished or have given up, with TAs
+  going home early.  We need to make it clear to TAs at the beginning
+  of the semester, and repeat it during the semester, that we expect
+  the lab to last for three hours every single week.  When I create
+  lab tasks, I make lots of small tasks, in fact too many for all but
+  the very best students to finish in the allocated time.  It needs to
+  be made clear to students that failing to finish all tasks is not
+  failure, and for some students even completing the first one or two
+  tasks without too much help is a real achievement. (At this point
+  students will learn that programmer productivity can easily vary by
+  a factor of ten or so.)</p>
+
+<p>You can find the lab tasks I created for the first iteration of the
+  course <a href="http://tclab.kaist.ac.kr/~otfried/cs101spring2010/slides.html">here</a>
+  (some of these tasks are no longer appropriate, for instance we no
+  longer cover dictionaries, but this gives you an idea of the amount
+  of material to fill one lab).</p>
+
+<p>We use <a href="http://en.wikipedia.org/wiki/Pair_programming">Pair
+    Programming</a> in the labs.  First, it seems to be helpful for
+  many beginning programmers to work in a pair.  Second, we often
+  face the situation that we do not have enough working PCs to
+  provide one to each student.  (The CLB PC-labs are not very well
+  maintained, some PCs are unusably slow or just broken.)   Of course
+  the danger is that some students take a free ride and let their
+  partner do all the programming, so the TAs check that pairs switch
+  roles regularly.</p>
+
+<p>During the lab, students need to get checked by a TA after they
+  have completed some task.  The challenge here is to make sure that
+  students continue doing the remaining tasks and do not just leave
+  after getting their checkmark.</p>
+
+
+<h2>Homeworks</h2>
+
+<p>We traditionally give about four homeworks during the course.
+  Students are expected to finish them at home, with a deadline of
+  about two weeks, and on-line submission.</p>
+
+<p>The homeworks have been problematic.  In 2010, about 100 students
+  were caught copying or letting copy on the last homework.  Of course
+  this implies that they have been copying the earlier homeworks, too,
+  but those were typically so easy that there was really only one
+  standard answer, and it was impossible to catch copying.</p>
+
+<p>To me, this indicates that many students have genuine difficulty
+  doing the homework task.  I had quite a number of students in my
+  class who came to my office with their laptop because they didn't
+  know how to proceed.</p>
+
+<p>My suggestion would be to get rid of homeworks altogether.  If
+  students genuinly work for three hours in every lab, then they learn
+  more in this supervised setting than in a homework where they get
+  stuck.  We could introduce one or two "task labs", where students
+  get set a task more formally that they need to complete in pairs.
+  They would have TAs around that would help them to the task.
+  TAs tend to think that homeworks are there to evaluate the
+  students.  That is of course all wrong.  Homeworks are part of the
+  learning experience!  We are currently using a lot of TA resources
+  on grading homeworks and trying to catch cheaters. By getting rid of
+  homeworks, we could allocate the freed resources to provide separate
+  small-group labs to students who need extra help, such as students
+  from normal high-schools.</p>
+
+
+<h2>Course waiver exam</h2>
+
+<p>At the beginning of the semester, there is a <em>course waiver
+  exam</em>, also called <em>pass exam</em>.  This exam is officially
+  administered by the academic affairs office, and students need to
+  register for it (and pay 10,000 Won registration fee).</p>
+
+<p>In the past, our waiver exam consisted of 90 minutes of written
+  exam, similar in style to the CS101 final exam, and 90 minutes of
+  programming exam that had to be done in Python. The exam is graded,
+  and the grades are released to the students.  If the grade is B- or
+  better, students can chose if they want to take this grade as their
+  CS101 course grade (instead of taking the course).</p>
+
+<p>In Spring 2011, two students took the exam and got an A-, and
+  decided to take the course instead.  The problem was that even
+  though they could program well, they were not that familiar with
+  Python and the type of questions we asked in the written exam.</p>
+
+<p>The purpose of the course waiver exam is to allow students who can
+  already program on the level taught in CS101 to forego the
+  course. In a discussion Sue Moon, Kwangmoo Choe, Taisook Han, and
+  Otfried Cheong had on March 9, 2011, we suggested that it might be
+  better to really just test programming skill:  the exam would consist
+  of a task and two hours to write a program to solve this task in
+  either Python, Java, C, or C++ (other languages can be added if
+  grading can be ensured).  No written exam is necessary if students
+  can do this.</p>
+
+<p>We might also try to convince the academic affairs office to be
+  allowed to grade the waiver exam Pass/Fail.</p>
+
+
+<h2>Bridge program</h2>
+
+<h3>Background</h3>
+
+<p>The bridge program (BP) is meant for students at normal (non-science)
+high schools that have been accepted to KAIST and will enter KAIST in
+the next spring.  It is meant to prepare them for KAIST by
+<ul>
+<li>getting them exposed to lectures and course materials in English</li>
+<li>improving their background knowledge, so that they are not left
+  behind in the first semester</li> 
+</ul>
+The bridge program is offered at least by physics, math, and
+chemistry.  In some cases (e.g. math) it is actually taught as a real
+course at KAIST, which is taken by foreign students during their first
+semester at KAIST to improve their background, and which is recorded
+and taught to the high school students.</p>
+
+<h3>The case of CS101</h3>
+
+<p>On Monday, May 30, 2011, Sukyoung Ryu, In-Young Ko, and Otfried Cheong
+had a meeting concerning the bridge program for CS101.  Here is a
+short summary of our thoughts about this.</p>
+
+<p>Unlike freshman math, physics, and chemistry courses, the freshman
+programming course CS101 offered by our department starts from zero.
+It assumes no prior programming knowledge, and in fact limited
+computer exposure.</p>
+
+<p>This means that "improving background knowledge" does not apply to
+CS101. There are many students from <em>science high schools</em> who come to
+KAIST <em>without</em> any programming experience.  It would be strange to
+suggest to normal-high school students to take a preparatory
+programming course but not to offer this to science high school
+students.</p>
+
+<p>One does not learn programming from lectures, but by doing it in
+front of a computer.  We provide an interactive environment in the
+CS101 labs, where TAs are available to help students set up their
+computers, install Python and the necessary libraries, and take them
+through their first programming steps.</p>
+
+<p>We believe that this is absolute essential for a positive learning
+experience, and we do not know how we could provide this remotely to
+students at high schools throughout the country.  Many students have
+difficulties with the most elementary steps at the beginning.</p>
+
+<p>For these two reasons, we do not believe it to be effective to
+offer such a course.</p>
+
+<p>However, it is true that students from normal highschools often
+have difficulties keeping up with the learning curve during CS101.  On
+average, they need more time and more help than students from science
+high schools.  It would be helpful if the means provided for the BP
+could be used to recruit additional TAs to tutor these students in
+smaller groups.</p>
+
+<p>In addition, the first semester is too packed, and students who get
+a bit behind do not have enough free time to study and catch up.  It
+would be useful to offer a gentler slope with less concentrated
+coursework to some students, for instance by offering one or two
+courses during the summer break of the freshman year.</p>
+
+<h2>Policies</h2>
+
+<h3>Cheating</h3>
+
+<p>Officially, the penalty for cheating is an F on the course.  In
+  practice, this wasn't enforced in the past (I don't know about this
+  semester).  In fall 2011, when 100 students were caught cheating on
+  the homework, we gave them zero points for the homework and
+  downgraded their final course score by one unit (so A+ became
+  A0&mdash;this actually happened, since we also penalized the one who
+  allowed the copying).</p>
+
+<h3>Retaking CS101</h3>
+
+<p>KAIST policy does not allow students to get a grade better than B+
+  when retaking a course, but this policy applies only to 2007학번 and
+  later. In CS101, we apply this policy to <em>all</em>
+  students&mdash;you cannot get a grade better than B+ if you retake
+  CS101. The grace period for the old students is over.</p>
+
+<p>In the past, we often had students who were EE, CS, or IE majors in
+  their last year, who had already taken advanced courses involving
+  programming, and who simply wanted to retake CS101 to replace a bad
+  grade they got in their freshman year by a better grade to improve
+  their overall GPA.  There is absolutely no justification for
+  allowing that.  We are already tight on capacity, we can't waste it
+  on students where it has no educational value at all.  Worse, those
+  student depress the freshmen because they know everything in the
+  class and the lab, and give lecturers and TAs the wrong impression
+  on how students are progressing.  These students also didn't realize
+  that they are shooting themselves in the foot: An employer or
+  graduate school can immediately see from the transcript that they
+  retook an easy beginner course in their last year.  Who wants to
+  hire somebody who likes to play tricks like this, and who clearly
+  worries more about appearance than about substance?  It actually
+  devalues the other grades on the transcript, because you start
+  wondering what other tricks the student may have played to get good
+  scores.</p>
+
+<p>In 2010, Otfried Cheong instituted a policy that students who were
+  already registered with an IT-related major (defined as being part
+  of the IT college) could <em>not</em> retake CS101 if they had
+  already passed it.  In 2011, Sue Moon amended this policy to allow
+  students to retake after a face-to-face meeting with her.</p>
+
+</body>
+</html>

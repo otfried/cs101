@@ -1,0 +1,11 @@
+# Starting closest to the sun
+Mercury
+Venus
+# This is where we live
+Earth
+Mars
+# Now we get to the big guys
+Jupiter
+Saturn
+Uranus
+Neptune
