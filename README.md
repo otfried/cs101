@@ -7,7 +7,7 @@ regardless of their major.
 I created those materials in 2010, they are still used with only minor
 modifications.
 
-Lecture slides are in Ipe format (ipe7.sourceforge.net).  
+Lecture slides are in Ipe format (ipe.otfried.org).
 
 The slides for the labs in the lab subdirectory where made by the TAs
 for the labs in Fall 2010.
